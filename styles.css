@@ -1,0 +1,52 @@
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(rgba(155, 100, 50, 0.4), rgba(155, 100, 50, 0.6)),
+    url("img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.logo {
+  height: 40px;
+  margin-top: 20px;
+}
+
+.text-description {
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.3) !important;
+  color: #fff !important;
+  border: 0;
+}
+
+a .fab {
+  color: #ffc;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+::placeholder {
+  color: white !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
